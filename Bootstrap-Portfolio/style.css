@@ -1,0 +1,64 @@
+* {
+    
+}
+
+#footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: darkgrey;
+    border-top: 5px teal solid;
+}
+
+#body2 {
+    background-color: white;
+    margin-top: 50px;
+    padding: 35px;
+    float: center;
+    width: 960px;
+    
+}
+
+#body3 {
+    background-color: white;
+    margin-top: 25px;
+    padding: 35px;
+    float: center;
+    width: 960px;
+    
+}
+
+.container {
+    max-width: 960px;
+    margin: auto;
+}
+
+.clearfix::after  {
+    Content:"";
+    Display: block;
+    Clear: both;
+    }
+
+.navbar-brand {
+    margin-left: 200px;
+}
+
+.navbar-nav {
+    margin-right: 186px;
+}
+
+body { background: grey !important; }
+
+.row{
+    background-color: white;
+    margin-top: 70px;
+}
+
+h2 {
+    background-color: white;
+    border-bottom: 5px grey solid;
+    padding: 4px;
+    color: teal;
+}
+
